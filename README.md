@@ -1,12 +1,14 @@
-# React + Vite
+# 🌍HappyData
+HappyData is a web-based visualization platform that helps users explore how different development indicators relate to human well-being.
+The project integrates World Happiness Report data and World Bank Indicators into an interactive React app with charts and visualizations.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ✨Features
 
-Currently, two official plugins are available:
+ #### Country Indicator Trend
+- Point one Select a country + development indicator (GDP, Population, Literacy, GNI).
+- Point two View historical trends in a line chart (data from World Bank API).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ #### Indicator vs Happiness
+- Point one Compare World Happiness Report scores with World Bank indicators.
+ #### Regional Happiness Distribution
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
