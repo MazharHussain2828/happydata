@@ -33,7 +33,7 @@ export default function IndicatorVsHappiness() {
   // Step A: Load happiness data from CSV
   useEffect(() => {
     const loadHappiness = async () => {
-      const whrRes = await fetch(import.meta.env.BASE_URL + "whr.csv");
+      const whrRes = await fetch("/happydata/whr.csv");   // Quick fix
       const text = await res.text();
       const { data } = Papa.parse(text, { header: true, skipEmptyLines: true });
 
