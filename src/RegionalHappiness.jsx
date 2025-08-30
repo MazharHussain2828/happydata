@@ -43,7 +43,7 @@ function RegionalHappiness() {
       }));
 
       // Load TopoJSON world map
-      const geoRes = await fetch("/countries-110m.json");
+      const geoRes = await fetch(import.meta.env.BASE_URL + "countries-110m.json");
       const topoData = await geoRes.json();
 
       // Convert TopoJSON → GeoJSON
